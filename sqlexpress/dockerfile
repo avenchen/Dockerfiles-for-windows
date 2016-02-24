@@ -31,7 +31,7 @@
 #     start.ps1
 
 # .NET 3.5 required for SQL Server
-FROM docker.io/microsoft/dotnet35
+FROM microsoft/dotnet:latest
 
 # maintainer for image metadata
 MAINTAINER Buc Rogers
